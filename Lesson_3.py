@@ -2,7 +2,7 @@ from BirdBrain import Finch
 from time import sleep
 
 bird = Finch()
-'''
+
 print('Excercise1')
 bird.setBeak(5,50,80)
 
@@ -33,7 +33,7 @@ number = int(userResponse)
 bird.setTail(number,100,0,0)
 sleep(1)
 bird.stopAll()
-'''
+
 print('Excercise6')
 red = int(input("Amount of color (0-100) of red? "))
 green = int(input("Amount of color (0-100) of green? "))
@@ -49,7 +49,7 @@ bird.setTail(tail,red,green,blue)
 bird.setBeak(red,green,blue)
 sleep(3)
 bird.stopAll()
-'''
+
 print('Excercise7')
 bird.setMove('F',10,100)
 bird.setTurn('R',90,100)
@@ -63,4 +63,4 @@ bird.setTail(1,0,0,100)
 bird.setMove('F',10,100)
 bird.setTurn('R',90,100)
 bird.setTail(1,100,0,100)
-'''
+
