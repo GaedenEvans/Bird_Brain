@@ -62,25 +62,16 @@ right = input('Please enter a speed for the right wheel (0 to 50): ')
 speed2 = int(right)
 left = input('Please enter a speed for the left wheel (0 to 50): ')
 speed = int(left)
-
-'''
-if (speed == 0 - 50) and (speed2 == 0 - 50):
+if (speed <= 0 - 50) and (speed2 <= 0 - 50):
     bird.setMotors(speed,speed2 + speed2)
     sleep(1)
     bird.stop()
 else:
     print(" That speed is not valid! ")
 
-'''
 
-# Gaedan this is a way to do the exercise
 
-if (speed >= 0 and speed <= 50) and (speed2 >= 0 and speed2 <= 50):
-    bird.setMotors(speed,speed2 + speed2)
-    sleep(1)
-    bird.stop()
-else:
-    print(" That speed is not valid! ")
+
 
 
 

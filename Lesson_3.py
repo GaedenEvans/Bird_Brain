@@ -5,6 +5,7 @@ bird = Finch()
 
 print('Excercise1')
 bird.setBeak(5,50,80)
+bird.stopAll()
 
 print('Excercise2')
 bird.setBeak(100,0,100)
@@ -12,6 +13,7 @@ sleep(5)
 bird.setBeak(0,100,100)
 sleep(5)
 bird.setBeak(100,100,0)
+bird.stopAll()
 
 print('Excercise3')
 bird.setTail(1,0,0,100)
@@ -63,4 +65,4 @@ bird.setTail(1,0,0,100)
 bird.setMove('F',10,100)
 bird.setTurn('R',90,100)
 bird.setTail(1,100,0,100)
-
+bird.stopAll() 
